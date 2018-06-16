@@ -9,14 +9,14 @@ import scala.concurrent.ExecutionContext.Implicits.global
 
 object Main {
   val config = ConfigFactory.load()
-  val logger = Logger("ROOT")
+  val logger = Logger(config.getString("logger.name"))
 
   /** Entry point. */
   def main(args: Array[String]): Unit = {
-    val opts = new Opts(config, args)
+    val opts = new Opts(args)
 
     val io = IO {
-      println(opts.msg.getOrElse(config.getString("test.message")))
+      logger.info(opts.msg.getOrElse("Hello, world!"))
     }
 
     // run the program
