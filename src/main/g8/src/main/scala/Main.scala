@@ -9,7 +9,7 @@ import scala.concurrent.ExecutionContext.Implicits.global
 
 object Main {
   val config = ConfigFactory.load()
-  val logger = Logger(config.getString("logger.name"))
+  val logger = Logger(config.getString("logger.root"))
 
   /** Entry point. */
   def main(args: Array[String]): Unit = {
