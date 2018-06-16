@@ -4,17 +4,13 @@ This is a [Giter8][g8] skeleton for [Scala][scala].
 
 ## Getting Started
 
-Download an install the following applications:
-
-* [SBT][sbt]
-
-Next, run [SBT][sbt] on the command line to initialize a new sekeleton.
+Download an install [SBT][sbt] and run it on the command line to create a new [Scala][scala] project using the skeleton:
 
 ```
 $ sbt new massung/scala-skeleton.g8
 ```
 
-It has a few things to make life a little easier setting up a new [Scala][scala] application:
+It has a few things to make life a little easier:
 
 * `.editorconfig` file for indentation
 * `.gitignore` for obvious reasons
