@@ -33,6 +33,7 @@ It's also pre-setup for [Ensime][ensime], assuming you use it.
 # fin.
 
 [g8]:           http://www.foundweekends.org/giter8
+[sbt]:          https://www.scala-sbt.org/index.html
 [scala]:        http://www.scala.org
 [ensime]:       http://ensime.github.io/
 [logback]:      https://logback.qos.ch/
