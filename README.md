@@ -26,6 +26,11 @@ In the `build.sbt` file I arbitrarily chose some common libraries I use quite fr
 
 It's also pre-setup for [Ensime][ensime], assuming you use it.
 
+It has default `application.properties` and `logback.xml` resource files that are used. And for the skeleton code, there are only two files:
+
+* `Main.scala` is the entry point that runs a simple `IO` program.
+* `Opts.scala` handles a simple command line parsing example.
+
 # fin.
 
 [g8]:           http://www.foundweekends.org/giter8
