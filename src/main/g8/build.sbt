@@ -1,8 +1,8 @@
 name := "$name;format="Camel"$"
 
-version := "0.1"
+version := "$version$"
 
-scalaVersion := "2.12.6"
+scalaVersion := "$scala_version$"
 
 scalacOptions ++= Seq(
   "-feature",
