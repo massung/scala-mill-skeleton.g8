@@ -8,3 +8,6 @@ project/target/
 
 # compiled src
 target/
+
+# log files
+*.log
