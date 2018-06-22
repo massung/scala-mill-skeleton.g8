@@ -16,7 +16,7 @@ object Main {
     val opts = new Opts(args)
 
     val io = IO {
-      logger.info(opts.message.getOrElse("Hello, world!"))
+      logger.info(opts.config.message)
     }
 
     // run the program

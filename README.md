@@ -21,7 +21,7 @@ In the `build.sbt` file I arbitrarily chose some common libraries I use quite fr
 * [typesafe config][config] for parsing `application.properties`
 * [scallop][scallop] for command line parsing
 * [cats][cats] and [cats-effect][effect] for monads, fibers, etc.
-* [circe][circe] for encoding and decoding of JSON
+* [json4s][json4s] for encoding and decoding of JSON
 * [fs2][fs2] for streaming
 
 It's also pre-setup for [Ensime][ensime], assuming you use it.
@@ -30,6 +30,8 @@ It has default `application.properties` and `logback.xml` resource files that ar
 
 * `Main.scala` is the entry point that runs a simple `IO` program.
 * `Opts.scala` handles a simple command line parsing example.
+
+It also is setup with the `Opts` class able to load (and parse) a JSON configuration file as a command line argument. This is there for applications that need project settings that should not be stored in the `application.properties` file (e.g. API keys and database passwords).
 
 # fin.
 
@@ -41,7 +43,7 @@ It has default `application.properties` and `logback.xml` resource files that ar
 [logger]:       https://github.com/lightbend/scala-logging
 [config]:       https://lightbend.github.io/config/
 [scallop]:      https://github.com/scallop/scallop
-[circe]]:       https://circe.github.io/circe/
+[json4s]:       http://json4s.org/
 [cats]:         https://typelevel.org/cats/
 [effect]:       https://typelevel.org/cats-effect/
 [fs2]:          https://functional-streams-for-scala.github.io/fs2/
