@@ -1,4 +1,4 @@
-name := "$name;format="Camel"$"
+name := "$name$"
 
 version := "$version$"
 
