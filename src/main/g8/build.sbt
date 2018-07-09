@@ -12,6 +12,7 @@ scalacOptions ++= Seq(
 )
 
 libraryDependencies ++= Seq(
+  "com.chuusai" %% "shapeless" % "2.3.3",
   "ch.qos.logback" % "logback-classic" % "1.2.3",
   "co.fs2" %% "fs2-core" % "0.10.1",
   "com.typesafe" % "config" % "1.3.2",
