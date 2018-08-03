@@ -1,3 +1,3 @@
-# $name;format="Camel"$
+# $group$.$artifact$
 
 This is my README...
