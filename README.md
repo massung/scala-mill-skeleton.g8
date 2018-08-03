@@ -7,7 +7,7 @@ This is a [Giter8][g8] skeleton for [Scala][scala]. While [SBT][sbt] is used to 
 Download an install [SBT][sbt] and run it on the command line to create a new [Scala][scala] project using the skeleton:
 
 ```
-$ sbt new massung/scala-skeleton.g8
+$ sbt new massung/scala-mill-skeleton.g8
 ```
 
 The template parameters are as follows:
@@ -53,7 +53,7 @@ The default `Opts` implementation has the (optional, lazy) ability to load and p
 [g8]:           http://www.foundweekends.org/giter8
 [sbt]:          https://www.scala-sbt.org/index.html
 [scala]:        http://www.scala.org
-[mill]:         www.lihaoyi.com/mill/
+[mill]:         http://www.lihaoyi.com/mill/
 [logback]:      https://logback.qos.ch/
 [logger]:       https://github.com/lightbend/scala-logging
 [config]:       https://lightbend.github.io/config/
